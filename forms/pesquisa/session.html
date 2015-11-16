@@ -1,3 +1,4 @@
+<!DOCTYPE html>
 <html>
 <head>
 	<meta charset="UTF-8">
@@ -10,9 +11,9 @@
 	<form method="GET" action="fim.html">
 			<h2 align="center">Dados do Eleitor</h2>
 			<p align="center">
-				Nome: <input  type="text" name="nome" size="20" placeholder="Nome Completo">*
-				| Matricula: <input  type="text" name="matricula" size="20" placeholder="ex: 20152015040016" maxlength="14">*
-				| CPF: <input  type="text" name="CPF" size="20" placeholder="ex: 09255562440" maxlength="11">*<br>
+				Nome: <input  type="text" name="nome" size="20" placeholder="Nome Completo" required>*
+				| Matricula: <input  type="text" name="matricula" size="20" placeholder="ex: 20152015040016" maxlength="14" required>*
+				| CPF: <input  type="text" name="CPF" size="20" placeholder="ex: 09255562440" maxlength="11" required>*<br>
 			</p>
 			<p align="center">
 				Sexo: <input type="radio" name="sexo" value="masc">Masculino
@@ -38,7 +39,7 @@
 			</select>*<br>
 		</p>	
 		<p align="center">
-			Secretário:
+			Secretário(a):
 			<select size="1" name="secretario">
 				<option select>escolher</option>
 				<option value="Daniel">Daniel</option>
@@ -78,9 +79,9 @@
 			<input type="checkbox" name="anom" value="anom">Enviar voto como anônimo<br>
 		</p>
 		<p align="center">
-			Não sou uma maquina: <img src="imagens/captcha.jpg"> <input type="text" name="nome" size="8">*<br>
+			Não sou uma maquina: <img src="imagens/captcha.jpg"> <input type="text" name="nome" size="8" required>*<br>
 			<p align="center">
-				<input type="submit" value="Votar"><br>
+				<input type="submit" value="Vote"><br>
 				<p align="center">
 					* Campo obrigatório.
 				</p>
