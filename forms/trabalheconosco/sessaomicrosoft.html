@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>Cadastro Curriculo</title>
+</head>
+<body bgcolor="#F5F5F5">
+	<p align="center">
+		<a href="index.html"><img src="imagens/trbcon.png"></a>
+	</p>
+	<p align="center"><a href="index.html"><img src="imagens/inicio.png"></a> <a href="parceiros.html"><img src="imagens/parceiros.png"></a> <a href="sobre.html"><img src="imagens/sobre.png"></a> <a href="contato.html"><img src="imagens/contato.png"></a> <a href="cadastro.html"><img src="imagens/chat.png"></a></p>
+	<p align="center"><img src="imagens/traco.png"></p>
+	<form method="GET" action="cvcadastrado.html">
+		<p align="center">
+			Cargo: <input  type="text" name="nome" size="20" value="Analista Programador" disabled>
+			| Empresa:<input  type="text" name="nome" size="20" value="Microsoft" disabled><br><br>
+			Seu Nome: <input  type="text" name="nome" size="20" placeholder="Nome Completo" required>
+			Telefone: <input  type="text" name="nome" size="20" placeholder="84988888888" required><br><br>
+			CPF: <input  type="text" name="nome" maxlength="11" placeholder="09675854854" required>
+			| Email: <input type="email" name="seuemail" required><br><br>
+			<input type="radio" name="sexo" value="masc" checked>Masculino
+			<input type="radio" name="sexo" value="fem">Feminino
+			| Etnia:
+			<select size="1" name="etnia">
+				<option>Selecione</option>
+				<option value="Branco">Branco</option>
+				<option value="Pardo">Pardo</option>
+				<option value="Indio">Índio</option>
+				<option value="Negro">Negro</option>
+			</select>
+			| Nascimento: <input type="date" name="niver"><br><br>
+			Curriculo: <input type="file"><br><br>
+			<textarea name="informacao" rows="4" cols="20">Informação Adicional</textarea><br>
+			<input type="checkbox" name="sim" value="sim">Receber email para ficar informado de novas vagas<br><br>
+			<input type="submit" name="Enviar"><br>	
+		</p>
+	</form>
+</body>
+</html>
