@@ -1,3 +1,3 @@
-#atividades e projetos HTML - TADS IFRN
+#HTML - TADS IFRN
 
 Resoluções de trabalhos e atividades da Graduação. TADS IFRN.
